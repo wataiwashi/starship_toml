@@ -1,0 +1,34 @@
+[character]
+success_symbol = "[❯](bold 28)" 
+
+[time]
+disabled = false
+format = '🕙 [\[$time\]]($style)'
+time_format = "%T"
+style = "bold 28"
+
+[cmd_duration]
+min_time = 100
+show_milliseconds = true
+#style = "bold 178"
+
+[python]
+style = "100"
+
+[git_status]
+style = "167"
+conflicted = "🏳"
+ahead = "🏎💨"
+behind = "😰"
+diverged = "😵"
+up_to_date = "✓"
+untracked = "🤷‍"
+stashed = "📦"
+modified = "📝"
+staged = '[++\($count\)](green)'
+renamed = "👅"
+deleted = "🗑"
+
+[git_branch]
+symbol = "🌱 "
+
